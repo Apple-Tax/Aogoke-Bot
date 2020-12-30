@@ -1,8 +1,8 @@
 #!/bin/sh
 if [ $AODebug = "true" ]; then
-	bpython -i AogokeBot.py
+	python -i AogokeBot.py
 else
-	bpython AogokeBot.py
+	python AogokeBot.py
 fi
 
 find . -type d -name  "__pycache__" -exec rm -r {} +
