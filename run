@@ -1,8 +1,0 @@
-#!/bin/sh
-if [ $AODebug = "true" ]; then
-	python -i AogokeBot.py
-else
-	python AogokeBot.py
-fi
-
-find . -type d -name  "__pycache__" -exec rm -r {} +
